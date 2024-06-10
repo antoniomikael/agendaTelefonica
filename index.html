@@ -17,7 +17,7 @@
         <main>
             <form id="form">
                 <input type="text" placeholder="Nome:" id="name">
-                <input type="tel" placeholder="(xx)xxxxx-xxxx" id="phone" name="phone" maxlength="15">
+                <input type="tel" placeholder="(xx)xxxxx-xxxx" id="phone" name="phone" maxlength="15" minlength="15" required>
                 <button type="submit">ADD + </button>
             </form>
             <table>
@@ -35,7 +35,7 @@
                 </tbody>
                 <tfoot>
                     <th>Contatos:</th>
-                    <th>10</th>
+                    <th id="qtdeContato">10</th>
                 </tfoot>
                 
             </table>

@@ -33,8 +33,16 @@ input{
 }
 button{
     font-size: 24px;
-    
+    background-color: green;
+    color: white;
+    border-radius: 9px;
+    font-weight: bolder;
+    padding: 2px;
 }
 th, td{
     border-bottom: rgb(196, 190, 190) 1px solid;
+}
+body{
+    background-color: black;
+    color: white;
 }
